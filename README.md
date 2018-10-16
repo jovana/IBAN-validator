@@ -23,3 +23,21 @@ end if
 3 = Mod97 check failed
 4 = Format not recognized
 ```
+
+### Pro Tip
+Adding this namespace to your web.config like:
+```
+<system.web>
+    <pages>
+        <namespaces>
+            <clear />
+            <add namespace="iban.cIban" />
+        </namespaces>
+    </pages>
+</system.web>
+```
+
+Now you can access the function directly:
+```
+Dim check_iban as integer = ValidateIBAN("BE68539007547034")
+```
