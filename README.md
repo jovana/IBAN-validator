@@ -7,7 +7,7 @@ VB.NET IBAN validator
 
 ### Example
 ```
-Dim check_iban as integer = iban.cIban.ValidateIBAN("BE68539007547034")
+Dim iban_check As Integer = iban.cIban.ValidateIBAN("BE68539007547034")
 if check_iban = 0 then
     ' IBAN is valid
 else
@@ -39,5 +39,5 @@ Adding this namespace to your web.config like:
 
 Now you can access the function directly:
 ```
-Dim check_iban as integer = ValidateIBAN("BE68539007547034")
+Dim iban_check As Integer = ValidateIBAN("BE68539007547034")
 ```
