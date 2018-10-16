@@ -3,7 +3,7 @@ VB.NET IBAN validator
 
 ### How To Use
 - Copy the class iban.vb into your App_Code folder in your project
-- Call the namespace using ```iban.cIban.ValidateIBAN("<YOUR_IBAN_NUMBER>")```
+- Call the function from the namespace using ```iban.cIban.ValidateIBAN("<YOUR_IBAN_NUMBER>")```
 
 ### Example
 ```
