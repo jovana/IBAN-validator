@@ -16,8 +16,10 @@ end if
 ```
 
 ### Error code's
+```
 0 = ok, IBAN is valid
 1 = Country code unknow, mod97 check is ok
 2 = Length invalid with country code
 3 = Mod97 check failed
 4 = Format not recognized
+```
