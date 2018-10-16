@@ -1,2 +1,2 @@
 # IBAN-validator
-VB.NET IBAn validator
+VB.NET IBAN validator
